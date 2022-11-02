@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta property="og:title" content="안은희 프로필 링크 모음" />
+        <meta property="og:description" content="안은희 개발 링크 연결" />
+        <meta property="og:image" content="안은희.jpeg" />
+        <title>안은희 - 프로필 링크</title>
+    </head>
+    <style>
+        /*글꼴*/
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        * {
+            font-family: "Pretendard",serif;
+        }
+
+        body{
+            background-color: #44398A;
+        }
+
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            /*display flex 붙어다녀요 - 안에 내용물을 가운데 정렬*/
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .profile {
+            width:100px;
+            height:100px;
+            border-radius: 100%;
+            border : 2px solid white;
+
+            /*아래 세줄은 붙어다닌다.*/
+            background-image: url('안은희.jpeg');
+            background-position: center;
+            background-size: cover;
+        }
+        .main {
+            color: white;
+            font-size: 20px;
+
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .sub {
+            color:white;
+            font-size: 14px;
+
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+        .wrap > a {
+            width: 300px;
+            height: 50px;
+
+            background-color: white;
+            border-radius: 8px;
+
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #44398A;
+            text-decoration: none;
+
+            /*display flex 붙어다녀요 - 안에 내용물을 가운데 정렬*/
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            /*그림자*/
+            box-shadow: 3px 3px 5px 0px black;
+        }
+        .wrap > a:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">안은희</h1>
+            <p class="sub">코딩을 좋아해요.</p>
+            <a target="_blank" href="https://m.blog.naver.com/4off4">Blog</a>
+            <a target="_blank" href="https://github.com/4off4">GitHub</a>
+            <a target="_blank" href="https://www.notion.so/f5b3199555804f079f4c0125ae2686a0">Notion</a>
+        </div>
+    </body>
+</html>
+
+
